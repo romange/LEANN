@@ -1210,6 +1210,10 @@ results = searcher.search("banana‑crocodile", use_grep=True, top_k=1)
 - **HNSW** (default): Ideal for most datasets with maximum storage savings through full recomputation
 - **DiskANN**: Advanced option with superior search performance, using PQ-based graph traversal with real-time reranking for the best speed-accuracy trade-off
 
+📖 **Want to understand the algorithm in depth?** Check out our comprehensive guides:
+- **[How It Works (Visual Guide)](docs/HOW_IT_WORKS.md)** - High-level visual explanation with diagrams
+- **[Algorithm Explanation (Technical)](docs/ALGORITHM_EXPLANATION.md)** - Detailed technical documentation with code references
+
 ## Benchmarks
 
 **[DiskANN vs HNSW Performance Comparison →](benchmarks/diskann_vs_hnsw_speed_comparison.py)** - Compare search performance between both backends
